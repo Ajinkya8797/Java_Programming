@@ -126,8 +126,9 @@ public class DataTypes {
 		
 		byte P1 = 127;
 		byte P2 = 125;
-		int K2 = (P1 + P2);// 127+125 = 252
-		System.out.println(K2);// 3
+//		byte K2 = (byte)(P1 + P2);    //127+125 = 252 it should ideally give 252 but it gives -4 . byte range -128 to 127 =256  and 252-256=-4
+		int K2 = (P1 + P2);
+		System.out.println(K2);//252
 
 		int I = -2147483648;
 		int J = -2147483648;
