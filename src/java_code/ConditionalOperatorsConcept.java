@@ -28,9 +28,9 @@ public class ConditionalOperatorsConcept {
 		// ------------------------------------------------
 		boolean flag = true; // Value of flag can change so it don't show dead code here
 		if (flag) {
-			System.out.println("Hello selenium");
+			System.out.println("Hello World");
 		} else {
-			System.out.println("Bye selenium");
+			System.out.println("Bye World");
 		}
 
 		// ------------------------------------------------
@@ -43,16 +43,15 @@ public class ConditionalOperatorsConcept {
 		}
 
 		// ------------------------------------------------
-		// Write A Program - Three different values ---> Max value
+		// Write A Program - Three different values ---> Find Maximum value
 		int X = 700;
 		int Y = 900;
 		int Z = 600;
 		// && --> short circuit operator
-		// true && true && false && true && true -->Short circuit will happen after one
-		// condition get false.
+		// true && true && false && true && true -->Short circuit will happen after one condition get false.
 		if (X > Y && X > Z) { // False && True = False
 			System.out.println("X is the greatest");
-		} else if (Y > Z) { // False
+		} else if (Y > Z) { // True
 			System.out.println("Y is the greatest");
 		} else {
 			System.out.println("Z is the greatest");

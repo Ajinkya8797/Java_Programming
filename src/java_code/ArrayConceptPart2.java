@@ -26,6 +26,7 @@ public class ArrayConceptPart2 {
 		System.out.println(Arrays.toString(empNames)); // [Akshay, Ajinkya, Anusha]
 		System.out.println(empNames.length);// 3
 
+		
 		System.out.println("-----------------Print Using Index based loop--------------------------");
 		for (int i = 0; i <= empNames.length - 1; i++) {
 			System.out.println(empNames[i]);
@@ -87,7 +88,7 @@ public class ArrayConceptPart2 {
 		System.out.println("-------Object Array-----------");
 //		Emp info: name(string), age(int), salary(double), dob(String),isActive(boolean), gender(char)
 
-// Object Array: it Holds any type of data. Default value of non-primitive data type is null.
+//     Object Array: it Holds any type of data. Default value of non-primitive data type is null.
 		Object empInfo[] = new Object[6];
 		System.out.println(Arrays.toString(empInfo));// null
 		empInfo[0] = "Ajinkya";
@@ -95,7 +96,7 @@ public class ArrayConceptPart2 {
 		empInfo[2] = 35.55;
 		empInfo[3] = "26-02-1994";
 		empInfo[4] = true;
-		empInfo[5] = 'f';
+		empInfo[5] = 'M';
 		System.out.println(Arrays.toString(empInfo));
 
 		System.out.println();

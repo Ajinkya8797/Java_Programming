@@ -2,7 +2,7 @@ package java_code;
 
 public class SwitchCaseConcept {
 
-	// Boolean Cases Not allowed in cases like marks>=90
+	// Boolean Cases Not allowed in cases like marks>=90 ,so don't put condition in case 
 	// byte,short,int,char,String --> allowed 
 	// long,float,double,boolean --> not allowed 
 	public static void main(String[] args) {
@@ -75,7 +75,7 @@ public class SwitchCaseConcept {
 /*
  		  Usecases of Switch Cases:
  		* Cross browser logic 
- 		* Cross platform/OS/devices: Linux, mac, windows, android,ios 
+ 		* Cross platform/OS/devices: Linux, Mac, windows, android,IOS 
  		* User access based permission : RBAC: admin/seller/vendor/customer/distributor 
  		* Multi env execution:dev/qa/stage/uat/prod 
  		* payment options: CC/UPI/mobile app/online/COD 

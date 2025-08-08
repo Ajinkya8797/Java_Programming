@@ -8,6 +8,7 @@ public class IfElseConcept {
 
 			if (marks >100 || marks < 0) {
 				System.out.println("Incorrect marks");
+//				break;   --> break can not be used with Plain if-else ,or nested if-else. we use only with loop & Switch case.
 			} 
 			else {
 					if (marks >= 90) {

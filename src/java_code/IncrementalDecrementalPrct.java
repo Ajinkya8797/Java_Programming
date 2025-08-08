@@ -29,13 +29,18 @@ public class IncrementalDecrementalPrct {
 		System.out.println("p = " + p);// 18
 		System.out.println("q = " + q);// 28
 		System.out.println("r = " + r);// -1
-		System.out.println(m);// -10
+		System.out.println("m = " + m);// -10
 
+		int x =2;
+//		System.out.println(--(x++)); 	Wrong argument --> does not apply on bracket.
+//		System.out.println(--x++); 	Wrong argument-->don't apply -- & ++ at the same time.
+		
 		int M = 0, N = 0;
 		int P = --M * --N * N-- * M--;
-		System.out.println(P);
-		System.out.println(M);
-		System.out.println(N);
+//			 P = -1 * -1 * -1 * -1 =1
+		System.out.println("P = " + P);
+		System.out.println("M = " + M);
+		System.out.println("N = " + N);
 
 		int A = 1;
 		int B = A++ + ++A * --A - A--;

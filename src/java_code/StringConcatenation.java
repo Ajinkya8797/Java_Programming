@@ -16,9 +16,9 @@ public class StringConcatenation {
 		double d = 22.22;
 
 		System.out.println(s + s1); //Hi this is Ajinkya here200
-		System.out.println(a + b); //300 - here + is addition operator
-		System.out.println(x + y);//HelloSelenium - here + is Concatenation operator
-		System.out.println(a + x); //100Hello - Concatenation
+		System.out.println(a + b); //300 --> here + is Addition Op
+		System.out.println(x + y);//HelloSelenium --> here + is Concatenation Op
+		System.out.println(a + x); //100Hello --> + is  Concatenation Op
 		System.out.println(a + x + b); //100Hello200
 		System.out.println(a + b + x + y);//300HelloSelenium
 		System.out.println(x + y + a + b);// HelloSelenium100200
@@ -35,17 +35,19 @@ public class StringConcatenation {
 
 		char c1 = 'a';
 		char c2 = 'b';
+		
 		System.out.println(c1);// a
 		System.out.println((byte) c1);// 97
 		System.out.println(c1 + c2);// 97+98=195
 		System.out.println(c1 + 1);// 97+1=98
 		System.out.println(c1 + "1");// a1
 		System.out.println(c1 + c2 + x + y);// 195HelloSelenium
-
 		System.out.println(c1 + "" + c2);// ab
 		System.out.println(c1 + " " + c2);// a b
 		System.out.println("c1" + "c2");//c1c2
 
+		String ui = "Hello Selenium";
+		System.out.println(ui + " " + 90);
 	}
 
 }

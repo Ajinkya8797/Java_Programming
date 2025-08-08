@@ -6,20 +6,20 @@ public class DataTypes {
 	// Static + Dynamic
 	// Compile + RunTIme
 	public static void main(String[] args) {
+/*
+		 DataTypes: Type of data:
+		 1. Primitive Type :You don't need any object/reference
+		 2. Non Primitive Type : Need object/reference:
+		 			Ex: Array, Class, Interface, Objects, String
 
-		// DataTypes: type of data:
-		// 1. Primitive type :you don't need any object/reference
-		// 2. Non Primitive type : need object/reference:
-		// Array, Class, Interface, Objects, String
-
-		// primitive:
-		// 1. Boolean Type: true/false
-		// 2. Numeric Type:
-					// 2.a: Character: char: a $ 1
-					// 2.b: Integral Value:
-								// Integer : byte, short, int, long
-								// Floating-point: float, double
-
+		 Primitive DataTypes:
+		 1. Boolean Type: true/false
+		 2. Numeric Type:
+					 2.a: Character: char: a $ 1
+					 2.b: Integral Value:
+								 Integer : byte, short, int, long
+								 Floating-point: float, double
+*/
 		// 1. byte:
 		// size: 1 byte = 8 bits
 		// range: -128 to 127 =>  -2^7 to 2^7-1
@@ -56,18 +56,18 @@ public class DataTypes {
 		// range: - 9,223,372,036,854,775,808 to 9,223,372,036,854,775,807  => -2^63 to 2^63-1
 		// Ex: where to use : blood cells in body , world population , distance between sun and earth
 		long l = 10;
-		long num = 178788788899L;  //explicitly need to write L at postfix
+		long num = 178788788899L;  //Explicitly we need to write L at postfix
 		System.out.println(num);
-
-		// long phone = 919898989898L; //phone, account , Social Security Number, Aadhar number
+		
+		// long phone = 919898989898L; //phone, account , Social Security Number, Aadhar Card number
 		// String phone = "919898989898";
 		// We are storing it in string because we don't do any arithmetic operation on it
 
 		
 		// 5. float:
 		// size: 4 bytes = 4x8 = 32 bits
-		// range: after . can take upto 7 digits
-		// Ex: where to use : Salary like 15.44 LPA
+		// range: after . can take up to 7 digits
+		// Ex: where to use : Salary like 15.44 LPA , Version number of Build - 1.3 
 		float f1 = 12.33f;
 		float f2 = (float) 45.44;
 		System.out.println(f1);
@@ -84,7 +84,7 @@ public class DataTypes {
 
 		
 		// char:
-		// size: 2 bytes = 16 bits
+		// size: 2 bytes = 2x8 = 16 bits
 		// Unicode --> special + language char + ASCII
 		char c1 = 'a'; // a-z: 97 to 122
 		char c11 = 'b'; // a-z
@@ -104,24 +104,22 @@ public class DataTypes {
 		// range: true/false
 		boolean flag = true;
 		boolean isActive = false;
-
 		System.out.println(flag);
 		System.out.println(isActive);
 
-		short studentCollegeMarks = 100;
-		int number = 20;
-
+		
 		//Naming Conventions
+		int number = 20;
+		short studentCollegeMarks = 100;
 		int defaultTimeOut = 10; //Recommended
 		int pop_value_number = 20; // Not Recommended
 
+		// byte range: -128 to 127
 		byte p1 = 101;
 		byte p2 = 102;
-		//byte p3 =  p1 + p2; // Both p1 and p2 are in range of byte but their mathematical resultant will go beyond range thats why it show error
+//		byte p3 =  p1 + p2; // Both p1 and p2 are in range of byte but their mathematical resultant will go beyond range thats why it show error
 		int p3 = p1 + p2; // 203
-		// range: -128 to 127
 		
-
 		System.out.println("--------Assignment-------");
 		
 		byte P1 = 127;
@@ -139,8 +137,7 @@ public class DataTypes {
 		byte u = (byte) 128;
 		System.out.println(x + u);
 
-		String ui = "Hello Selenium";
-		System.out.println(ui + " " + 90);
+
 
 	}
 

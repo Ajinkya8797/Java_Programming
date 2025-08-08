@@ -59,15 +59,12 @@ public class IncrementAndDecrementOperators {
 		System.out.println(u2); // 1
 
 		int pop = 1;
-		System.out.println(pop++);// 1
+		System.out.println(pop++);// 1 --> Here initial value of pop=1 is given to println then increased in memory so it first gives 1 and then 2.
 		System.out.println(pop);// 2
 
 		int top = 5;
 		System.out.println(++top);//6
 		System.out.println(top);//6
-
-		System.out.println(10.0/3);//3.3333333333333335
-		System.out.println(10.0 % 3);//1.0
 
 	}
 

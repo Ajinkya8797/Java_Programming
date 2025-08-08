@@ -34,10 +34,10 @@ public class ArrayListIterations {
 		empNamesList.add("Anusha");// 1
 		empNamesList.add("Akshay");// 2
 		empNamesList.add("Abhi");// 3
-		empNamesList.add("Abhi");// 3 we can add Duplicates and null value also
-		empNamesList.add("Abhi");// 3
-		empNamesList.add(null);//
-		empNamesList.add(null);//
+		empNamesList.add("Abhi");// we can add Duplicates and null value also
+		empNamesList.add("Abhi");
+		empNamesList.add(null);
+		empNamesList.add(null);
 
 		System.out.println(empNamesList);
 		System.out.println();
@@ -61,7 +61,7 @@ public class ArrayListIterations {
 		System.out.println(studentList.get(3));
 		
 		studentList.add(0,"Anusha");
-		System.out.println(studentList.get(0));//Anusha --> Here anusha takes position of Rakesh , and he shifted to next postion
+		System.out.println(studentList.get(0));//Anusha --> Here anusha takes position of Rakesh , and Rakesh shifted to next position
 		
 		System.out.println(studentList); //[Anusha, Rakesh, Avinash, Priya, Ajinkya]
 		
@@ -75,14 +75,6 @@ public class ArrayListIterations {
 		System.out.println(studentList);
 		
 
-//		int i[] = { 1, 2, 3, 4, 5 };
-//		int count = i.length - 1;// 4
-//		for (int e : i) {
-//			e = count;
-//			System.out.println(i[count]);
-//			count--;
-//		}
-//
 //		//
 //		// 1. ArrayList ar = new ArrayList();
 //		// 2. ArrayList<> ar = new ArrayList<>();

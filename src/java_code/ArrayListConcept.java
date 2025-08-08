@@ -11,16 +11,16 @@ public class ArrayListConcept {
 			 		- Different Methods in AL
 			 		- Default Virtual Capacity of AL in Java - 10
 			 		- Current size of AL = PC of AL
-			 		- Load Factor(New VC) = PC/2 = Current Siz/2
+			 		- Load Factor(New VC) = PC/2 = Current Size/2
 			 		- AL is always index based
 			 		- we can add duplicates, null in AL
-			 		- Load Factor = PC/2 = Current Siz/2
+			 		- Load Factor = PC/2 = Current Size/2
 
    			ar.add();  --> To add the element in the AL
    			ar.get()    --> To Fetch the element in the AL
    			ar.size()   --> To get the current size of AL
    			
-   		The Yellow warning in the code is  - declare the req what kind of al you want like number,sting etc
+   		The Yellow warning in the code is  - declare the requirement what kind of array list you want like number,string etc
  */
 		ArrayList ar = new ArrayList();// Empty array list -- size = 0
 		System.out.println(ar.size());
@@ -28,25 +28,18 @@ public class ArrayListConcept {
 
 		ar.add(100);// 0
 		ar.add(200);// 1
-		
 		System.out.println(ar);
 		System.out.println(ar.size());
-
 		ar.add(300);// 2
 		ar.add(400);// 3
 		ar.add(500);// 4
-
 		System.out.println(ar.size());
-
 		ar.add(600);// 5
 		ar.add(700);// 6
-
 		System.out.println(ar.size());
-
 		ar.add(12.33);// 7
 		ar.add(true);// 8
 		ar.add("selenium");// 9
-
 		System.out.println(ar.size());
 
 		System.out.println(ar.get(0));
@@ -56,13 +49,12 @@ public class ArrayListConcept {
 
 		ar.add(1000);// 10
 		System.out.println(ar.get(10));
-		
 		ar.add("selenium");// 11
 		ar.add(null);// 12
-
 		System.out.println(ar.size());
 		System.out.println(ar);
 
+		
 System.out.println("-----------------------");
 
 		ArrayList ar1 = new ArrayList();// vc=10,pc=0
@@ -76,10 +68,8 @@ System.out.println("-----------------------");
 		ArrayList ar2 = new ArrayList(20);// pc=0,vc=20 [0-19]--> 19th -- added ---> pc/2=20/2=10
 		ArrayList ar3 = new ArrayList(7);// pc=0,vc=7--->7/2=3
 
-
-
-
-//		 Generics- diamond bracket and mention type of data. it can't be written in primitive data type - write Integer instead of int.
+//		 Generics- 
+//		Diamond bracket and mention type of data. it can't be written in the form of primitive data type - write Integer instead of int.
 
 		ArrayList<Integer> numList = new ArrayList<Integer>();
 		numList.add(100);

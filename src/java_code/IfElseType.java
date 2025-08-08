@@ -5,7 +5,7 @@ public class IfElseType {
 	public static void main(String[] args) {
 
 			 String test = "Ajinkya";
-			 if(test.equals("Ajinkya")) {
+			 if(test.equals("Ajinkya")) {  // To compare strings we use .equals method
 			 System.out.println("Pass");
 			 } else {
 			 System.out.println("Fail");
